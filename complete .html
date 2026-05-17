@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Student Task Manager | Completed Tasks</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">📋 TaskTracker</div>
+        <ul>
+            <li><a href="index.html">🏠 Dashboard</a></li>
+            <li><a href="tasks.html">📝 My Tasks</a></li>
+            <li><a href="add-task.html">➕ Add Task</a></li>
+            <li><a href="completed.html">✅ Completed</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        <h1>✅ Tasks I've Finished</h1>
+        
+        <div class="completed-stats">
+            <p>🎉 Great job! You've completed <span id="completedCountSpan">0</span> tasks so far.</p>
+            <p>💪 Keep going! Every completed task is a step closer to your goals.</p>
+        </div>
+
+        
+        <ul class="task-list completed-list" id="completedTasksList">
+            <li class="empty-message">No completed tasks yet. Start checking things off your list! ✨</li>
+        </ul>
+
+        <button id="clearAllBtn" class="clear-all-btn" style="display: none;">🗑️ Clear All Completed Tasks</button>
+    </main>
+
+    <footer>
+        <p>© 2026 Student Task Manager</p>
+        <p>Stay organized, stay on top of your studies! 📚</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

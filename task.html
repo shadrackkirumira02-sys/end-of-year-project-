@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Student Task Manager | All Tasks</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">📋 TaskTracker</div>
+        <ul>
+            <li><a href="index.html">🏠 Dashboard</a></li>
+            <li><a href="tasks.html">📝 My Tasks</a></li>
+            <li><a href="add-task.html">➕ Add Task</a></li>
+            <li><a href="completed.html">✅ Completed</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        <h1>📝 Awaiting task  List</h1>
+        
+        
+        <div class="filter-bar">
+            <button class="filter-btn active" data-filter="all">All Tasks</button><br>
+            <button class="filter-btn" data-filter="high">🔴 High Priority (Urgent)</button>
+            <button class="filter-btn" data-filter="medium">🟠 Medium Priority</button>
+            <button class="filter-btn" data-filter="low">🟢 Low Priority (Can Wait)</button>
+        </div>
+
+        
+        <ul class="task-list" id="pendingTasksList">
+            <li class="empty-message">No tasks yet. Click "Add Task" to create one! 📝</li>
+        </ul>
+    </main>
+
+    <footer>
+        <p>© 2026 Student Task Manager </p>
+        <p>Stay organized, stay on top of your studies! 📚</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>My Student Task Manager | Dashboard</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <nav>
+        <div class="logo">📋 TaskTracker</div>
+        <ul>
+            <li><a href="index.html">🏠 Dashboard</a></li>
+            <li><a href="tasks.html">📝 My Tasks</a></li>
+            <li><a href="add-task.html">➕ Add Task</a></li>
+            <li><a href="completed.html">✅ Completed</a></li>
+        </ul>
+    </nav>
+
+    
+    <main class="container">
+        <h1>Welcome back! 👋</h1>
+        
+        
+        <div class="stats" id="stats">
+            <div class="stat-card">
+                <h3>Tasks To Do</h3>
+                <p class="stat-number" id="pendingCount">0</p>
+            </div>
+            <div class="stat-card">
+                <h3>Already Done</h3>
+                <p class="stat-number" id="completedCount">0</p>
+            </div>
+            <div class="stat-card">
+                <h3>Total Tasks</h3>
+                <p class="stat-number" id="totalCount">0</p>
+            </div>
+        </div>
+
+        
+        <div class="upcoming">
+            <h2>📌 Deadlines This Week</h2>
+            <ul class="task-list" id="upcomingTasks">
+                <li class="empty-message">No pending tasks. Time to add some! ✨</li>
+            </ul>
+        </div>
+
+        
+        <div class="quick-add">
+            <a href="add-task.html" class="quick-add-btn">➕ Add a New Task</a>
+        </div>
+    </main>
+
+    
+    <footer>
+        <p>© 2026 Student Task Manager </p>
+        <p>Stay organized, stay on top of your studies! 📚</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
